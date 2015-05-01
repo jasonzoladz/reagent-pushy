@@ -14,14 +14,14 @@
   :cljsbuild {:builds [{:id "dev"
                         :source-paths ["src"]
                         :compiler {:optimizations :none
-                                   :output-to "public/dev/app.js"
-                                   :output-dir "public/dev/"
+                                   :output-to "dev/app.js"
+                                   :output-dir "dev/"
                                    :source-map true}}
                        {:id "prod"
                         :source-paths ["src"]
                         :compiler {:optimizations :advanced
                                    ;;:externs ["externs.js"]
-                                   :output-to "public/js/app.js"
+                                   :output-to "js/app.js"
                                    :pretty-print false}}
                        ]}
 
