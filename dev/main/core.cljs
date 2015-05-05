@@ -46,6 +46,8 @@
 (pushy/start! history)
 
 
+(print pushy)
+
 ;; RENDER APP ---------------------------------------------------------
 (reagent/render-component [app-view] (.getElementById js/document "app"))
 

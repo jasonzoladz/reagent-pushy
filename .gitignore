@@ -7,3 +7,4 @@
 # ignore generated files
 /public/dev
 /.lein-env
+/dev
